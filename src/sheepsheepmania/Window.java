@@ -13,11 +13,20 @@ public class Window extends JFrame{
     
     Window(){
         
+        //init window
+        this.setSize(Globals.displaySize);
+        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        this.setLocationRelativeTo(null);
+        this.setLayout(new BorderLayout());
+        
+        //add panels
         
         
         
+        
+        
+        //set after everything else
         this.setVisible(true);
-        
         
     }
     
